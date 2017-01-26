@@ -1,7 +1,7 @@
 
 
 psrsq<-function(object, method=c("Cox-Snell","Nagelkerke"),...){
-	UseMethod("rsquared",object)
+	UseMethod("psrsq",object)
 }
 
 psrsq.glm<-function(object, method=c("Cox-Snell","Nagelkerke"),...){
